@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
-import CategoryTabs from './CategoryTabs.jsx';
-import QuestionCard from './QuestionCard.jsx';
-import ScoreBadge from './ScoreBadge.jsx';
-import ResultPanel from './ResultPanel.jsx';
+import CategoryTabs from './component/CategoryTabs.jsx';
+import QuestionCard from './component/QuestionCard.jsx';
+import ScoreBadge from './component/ScoreBadge.jsx';
+import ResultPanel from './component/ResultPanel.jsx';
 
 const QUESTIONS = [
   { id: 'q1', cat: '문학', text: '셰익스피어 4대 비극에 해당하지 않는 작품은?', 

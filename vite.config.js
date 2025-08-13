@@ -1,11 +1,8 @@
+// vite.config.js
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-        base: '/Quiz/', // 여기에 실제 저장소 이름 입력
-  build: {
-    outDir: 'dist'
-  }
+  base: '/Quiz/',   // ← 레포 이름과 정확히 일치, 반드시 슬래시로 감싸기
 })
